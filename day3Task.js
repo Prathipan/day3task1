@@ -28,6 +28,6 @@ for(let i=0 ; i < values.length ; i++) {
 
 // for each
 
-// car.array.forEach((index,value) => {
-//     console.log('My array has at position ' + index + ', this value: ' + value);
-// });
+values.forEach((index) => {
+    console.log('My array has at position ' + index + ', this value: ' + car[index]);
+});
